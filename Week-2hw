@@ -1,0 +1,25 @@
+// Function 1: Addition
+function addition(a, b, c = 0, d = 0) {
+  return a + b + c + d;
+}
+
+// Function 2: Subtraction
+function subtraction(a, b, c = 0, d = 0) {
+  return a - b - c - d;
+}
+
+// Function 3: Multiplication
+function multiplication(a, b, c = 1, d = 1) {
+  return a * b * c * d;
+}
+
+// Function 4: Division
+function division(a, b, c = 1, d = 1) {
+  return a / b / c / d;
+}
+
+// Printing the outputs
+console.log("Addition:", addition(2, 3)); // Output: 5
+console.log("Subtraction:", subtraction(8, 4)); // Output: 4
+console.log("Multiplication:", multiplication(2, 3, 4)); // Output: 24
+console.log("Division:", division(10, 2, 2)); // Output: 2.5
